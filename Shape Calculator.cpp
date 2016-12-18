@@ -26,7 +26,7 @@ void cubVol();
 
 int main()
 {
-	menu();
+    menu();
 	return 0;
 }
 
@@ -37,17 +37,17 @@ void menu()		///menu procedure for choosing a shape
 	int errorCounter = 0;																//invisible counter in order to reset screen after 4 attempts
 
 	cout << "==========================\n" <<
-		"*****Shape calculator*****\n"
-		"==========================\n\n"
-		"What would you like to do? \n"
-		"(1) - Area of a Circle\n"
-		"(2) - Circumference of a Circle\n"
-		"(3) - Area of a Rectangle\n"
-		"(4) - Area of a Triangle\n"
-		"(5) - Volume of a Cuboid\n\n"
+		    "*****Shape calculator*****\n"
+	    	"==========================\n\n"
+	    	"What would you like to do? \n"
+	    	"(1) - Area of a Circle\n"
+	    	"(2) - Circumference of a Circle\n"
+	    	"(3) - Area of a Rectangle\n"
+	    	"(4) - Area of a Triangle\n"
+	    	"(5) - Volume of a Cuboid\n\n"
 
-		"(9) - Help guide to using this program\n"
-		"(0) - Exit the program\n\n";
+		    "(9) - Help guide to using this program\n"
+		    "(0) - Exit the program\n\n";
 	cin >> choice;
 
 	while (choice != "1" && choice != "2" && choice != "3" && choice != "4" && choice != "5" && choice != "9" && choice != "0")	//validation for the menu (while choice is not equal to 1-5 + 9 + 0 then retake input)
