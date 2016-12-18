@@ -27,7 +27,7 @@ void cubVol();
 int main()
 {
     menu();
-		return 0;
+	return 0;
 }
 
 void menu()		///menu procedure for choosing a shape
@@ -106,14 +106,14 @@ void helpGuide()	///displays the instructions to using the program
 	int errorCounter = 0;																		//invisible counter in order to reset screen after 4 attempts
 	
 	cout << "*==============*\n" <<
-					"*  Help Guide  *\n"
-					"*==============*\n\n"
-					"Select a shape to view more information about it.\n"
-					"(1) - Area of a Circle\n"
-					"(2) - Circumference of a Circle\n"
-					"(3) - Area of a Rectangle\n"
-					"(4) - Area of a Triangle\n"
-					"(5) - Volume of a Cuboid\n\n"
+			"*  Help Guide  *\n"
+			"*==============*\n\n"
+			"Select a shape to view more information about it.\n"
+			"(1) - Area of a Circle\n"
+			"(2) - Circumference of a Circle\n"
+			"(3) - Area of a Rectangle\n"
+			"(4) - Area of a Triangle\n"
+			"(5) - Volume of a Cuboid\n\n"
 
 			"(0) - Return to main menu or exit the program\n";
 	cin >> choice;
